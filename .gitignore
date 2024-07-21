@@ -1,0 +1,7 @@
+/.idea/
+*.swp
+JLCParts/*
+/src/config.txt
+/Macropad5x5-backups
+/JLCParts/
+/Macropad5x5-backups/

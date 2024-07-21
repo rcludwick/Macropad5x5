@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/RPi_Pico.pretty")(options "")(descr ""))
+  (lib (name "Macropad")(type "KiCad")(uri "${KIPRJMOD}/Macropad.pretty")(options "")(descr ""))
+)
