@@ -1373,7 +1373,6 @@
 		(uuid "bd2d3f61-5ffd-4c8d-adbf-dcd10effc3e9")
 	)
 	(model "${KIPRJMOD}/3d/RaspberryPi-PicoW-WithPins.step"
-		(hide yes)
 		(offset
 			(xyz 0 0 7.5)
 		)
@@ -1382,6 +1381,28 @@
 		)
 		(rotate
 			(xyz 0 0 180)
+		)
+	)
+	(model "${KIPRJMOD}/3d/HDR-TH_20P-P2.54-V-F.step"
+		(offset
+			(xyz -9 24 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3d/HDR-TH_20P-P2.54-V-F.step"
+		(offset
+			(xyz 9 24 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
 		)
 	)
 )

@@ -396,17 +396,6 @@
 		(remove_unused_layers no)
 		(uuid "e4806ec9-285f-4aec-99da-67ca111daa66")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.wrl"
-		(offset
-			(xyz -7.5 2.5 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/3d/PEC11L-4115F-S0020.stp"
 		(offset
 			(xyz 0 0 12)

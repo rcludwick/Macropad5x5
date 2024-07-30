@@ -6678,7 +6678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.25u"
 			(at 114.3 86.36 0)
 			(effects
 				(font
@@ -6760,7 +6760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 34.29 21.59 0)
 			(effects
 				(font
@@ -7555,7 +7555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 34.29 86.36 0)
 			(effects
 				(font
@@ -9157,7 +9157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 73.66 107.95 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 73.66 21.59 0)
 			(effects
 				(font
@@ -10230,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 34.29 107.95 0)
 			(effects
 				(font
@@ -10415,7 +10415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 73.66 86.36 0)
 			(effects
 				(font
@@ -10671,7 +10671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 93.98 64.77 0)
 			(effects
 				(font
@@ -10883,7 +10883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "Macropad:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 149.86 180.594 0)
 			(effects
 				(font
@@ -13029,7 +13029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 34.29 64.77 0)
 			(effects
 				(font
@@ -13629,7 +13629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -14166,7 +14166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 53.34 107.95 0)
 			(effects
 				(font
@@ -14977,7 +14977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 53.34 21.59 0)
 			(effects
 				(font
@@ -15212,7 +15212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 93.98 21.59 0)
 			(effects
 				(font
@@ -15294,7 +15294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 53.34 86.36 0)
 			(effects
 				(font
@@ -15785,7 +15785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 93.98 43.18 0)
 			(effects
 				(font
@@ -16990,7 +16990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 53.34 64.77 0)
 			(effects
 				(font
@@ -17676,7 +17676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -18149,7 +18149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 53.34 43.18 0)
 			(effects
 				(font
@@ -18231,7 +18231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.25u"
 			(at 114.3 107.95 0)
 			(effects
 				(font
@@ -18313,7 +18313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 34.29 43.18 0)
 			(effects
 				(font
@@ -18395,7 +18395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.25u"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -19094,7 +19094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 93.98 86.36 0)
 			(effects
 				(font
@@ -20119,7 +20119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.00u"
 			(at 73.66 43.18 0)
 			(effects
 				(font
@@ -20343,7 +20343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
+		(property "Footprint" "Macropad:SW_Cherry_MX_PCB_1.25u"
 			(at 114.3 43.18 0)
 			(effects
 				(font
