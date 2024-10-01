@@ -8,15 +8,18 @@ FALSE = ['0', "false", "False", "FALSE", False, None, "no", "No", "NO", "N"]
 TRUE = ['1', "true", "True", "TRUE", True, "yes", "Yes", "YES", "Y"]
 
 # Define row and column pin numbers for the 5x5 matrix
-ROWS = [1, 2, 3, 4, 5]
-COLS = [6, 7, 8, 9, 10]
+COLS = [1, 2, 3, 4, 5]
+ROWS = [6, 7, 8, 9, 10]
 
 # Initialize row and column pins
-#ROW_PINS = [Pin(row, Pin.OUT) for row in ROWS]
-#COL_PINS = [Pin(col, Pin.IN, Pin.PULL_UP) for col in COLS]
+ROW_PINS = [Pin(row, Pin.OUT) for row in ROWS]
+COL_PINS = [Pin(col, Pin.IN, Pin.PULL_UP) for col in COLS]
+
+ENC_A = Pin(11, Pin.IN, Pin.PULL_UP)
+ENC_B = Pin(12, Pin.IN, Pin.PULL_UP)
 
 LED_BUS = 22
-#LED_PIN = Pin(LED_BUS, Pin.OUT)
+LED_PIN = Pin(LED_BUS, Pin.OUT)
 
 #time.sleep(1)
 
@@ -49,30 +52,33 @@ def scan_buttons():
             if not col_pin.value():  # Check if button is pressed
                 button_presses.append((row_index, col_index))
         row_pin.value(1)  # Deactivate row
-    return button_presses
 
+    # Check rotary encoder
+    if not ENC_A.value():
+        button_presses.append('ENC_A')
+    if not ENC_B.value():
+        button_presses.append('ENC_B')
+
+    return button_presses
 
 def connect_to_wifi(ssid, password):
     print("Connecting to WiFi...")
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
-    print(wlan.scan())
 
-    #wlan.connect(ssid, password)
-    #while not wlan.isconnected():
-    #    pass
-    #print("Connected to WiFi")
-    #return wlan
+    wlan.connect(ssid, password)
+    while not wlan.isconnected():
+        pass
+    print("Connected to WiFi")
+    return wlan
 
 
 def main():
     # set the boot up neopixel to blue
-    #import neopixel
-    #array = neopixel.NeoPixel(LED_PIN, 35)
-    #array.fill((1, 1, 1))
-    #array.write()
-    #array.fill((0,0,0))
-    #array.write()
+    import neopixel
+    array = neopixel.NeoPixel(LED_PIN, 35)
+    array.fill((0, 0, 1))
+    array.write()
 
 
 
@@ -81,17 +87,8 @@ def main():
         wlan = connect_to_wifi(ssid, password)
 
 
-    #last_ntp_update = time.time()
-
     while True:
         ...
-        #pressed_buttons = scan_buttons()
-        #if pressed_buttons:
-        #    print("Buttons pressed:", pressed_buttons)
-        #
-        # Periodic NTP time update
-        #
-        #if time.time() - last_ntp_update > 300:
-        #    last_ntp_update = time.time()
-        #
-        # time.sleep(0.1)  # Main loop delay
+        pressed_buttons = scan_buttons()
+        if pressed_buttons:
+            print("Buttons pressed:", pressed_buttons)
